@@ -93,4 +93,4 @@ We'd like to thank the React and Firebase communities for their valuable contrib
 
 ```
 
-This README provides information about the React chat system, its features, how to get started, how to deploy it, and how to contribute. You can customize it further to include specific details about your project.
+Dont violate our community guid lines,You will banned for rest of your life or Your Syster gonna pregnet 
