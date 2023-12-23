@@ -18,8 +18,6 @@ Welcome to the React Chat System repository! This project is a full-stack chat a
 
 - **Message History:** Access chat history and scroll back through messages.
 
-- **Notification System:** Receive notifications for new messages.
-
 - **Responsive Design:** The chat system is responsive, ensuring a seamless experience on various devices.
 
 ## Getting Started
