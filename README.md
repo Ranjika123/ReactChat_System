@@ -71,6 +71,33 @@ To run this chat system locally or deploy it, follow these steps:
 
 To deploy this chat system to a hosting service, follow the deployment guidelines for your chosen platform (e.g., Firebase Hosting, Netlify, Vercel).
 
+## Firebase  Server Rules
+   ```bash
+   rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+  
+    match /{document=**} {
+      allow read, write: if false;
+    }
+    
+    match /messages/{docId} {
+      allow read: if request.auth.uid != null;
+      allow create: if canCreateMessage();
+    }
+    
+    function canCreateMessage() {
+      let isSignedIn = request.auth.uid != null;
+      let isOwner = request.auth.uid == request.resource.data.uid;
+      
+      let isNotBanned = !exists(/databases/$(database)/documents/banned/$(request.auth.uid));
+      return isSignedIn && isOwner && isNotBanned;
+    }
+  }
+}
+   ```
+### Update It Under rules sectopn in firebase-database✔ 
+
 ## Contributing
 
 If you'd like to contribute to this project, please fork this repository, make your changes, and create a pull request. We welcome enhancements and bug fixes!
