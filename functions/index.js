@@ -32,3 +32,4 @@ exports.detectEvilUsers = functions.firestore
         }
 
 });
+
