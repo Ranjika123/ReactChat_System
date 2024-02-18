@@ -14,7 +14,7 @@ Welcome to the React Chat System repository! This project is a full-stack chat a
 
 - **User Authentication:** Users can sign up, log in, and customize their profiles.
 
-- **Multiple Chat Rooms:** Create and join different chat rooms for specific discussions.
+- **Multiple Chat Rooms are Dleted:** Becuase FBI warned me about BOYS CHATS 
 
 - **Message History:** Access chat history and scroll back through messages.
 
