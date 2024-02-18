@@ -60,6 +60,12 @@ To run this chat system locally or deploy it, follow these steps:
    ```
 
 6. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the chat system locally.
+7. Build a "Build" Folder By Running
+   ```bash
+   npm run build
+   ```
+8.Update the App.js According to you API Key and Data
+
 
 ## Usage
 
