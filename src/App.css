@@ -1,5 +1,5 @@
 body {
-  background:url() ;
+  background-color: #282c34;
 }
 
 .App {
@@ -26,6 +26,17 @@ body {
   box-sizing: border-box;
 }
 
+.front{
+  max-width: 500px;
+  font-size: large;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding-left: 100px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
 .App section {
   display: flex;
   flex-direction: column;
@@ -87,6 +98,9 @@ button {
   background-color: #282c34; /* Green */
   border: none;
   color: white;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow:wheat;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
