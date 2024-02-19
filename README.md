@@ -76,6 +76,9 @@ To run this chat system locally or deploy it, follow these steps:
 ## Deployment
 
 To deploy this chat system to a hosting service, follow the deployment guidelines for your chosen platform (e.g., Firebase Hosting, Netlify, Vercel).
+ ```bash
+   firebase deploy
+   ```
 
 ## Firebase  Server Rules
    ```bash
