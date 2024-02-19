@@ -107,6 +107,33 @@ service cloud.firestore {
    ```
 ### Update It Under rules sectopn in firebase-database✔ 
 
+### IF Errors occured that you can't fix use eslint
+```bash
+{
+  "plugins": ["firebase"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:firebase/eslintrc"
+  ],
+  "rules": {
+    "firebase/no-duplicate-names": "warn",
+    "firebase/no-redundant-rules": "warn",
+    "firebase/prefer-use-app": "warn",
+    "firebase/valid-app-options": "warn",
+    "firebase/valid-auth-required": "warn",
+    "firebase/valid-credential-type": "warn",
+    "firebase/valid-download-size": "warn",
+    "firebase/valid-emulator-config": "warn",
+    "firebase/valid-get-data": "warn",
+    "firebase/valid-location": "warn",
+    "firebase/valid-on-complete": "warn",
+    "firebase/valid-permissions": "warn",
+    "firebase/valid-set-data": "warn",
+    "firebase/valid-update-data": "warn"
+  }
+}
+```
+
 ## Contributing
 
 If you'd like to contribute to this project, please fork this repository, make your changes, and create a pull request. We welcome enhancements and bug fixes!
